@@ -1,0 +1,121 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 20rem;
+}
+
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: #007bff;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 6px;
+    color: #006400;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+/* Secciones */
+section {
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.texto-imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-ajustada {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Redes Sociales */
+.imagen1 {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Botones de contacto */
+a {
+    border: 1px solid #007bff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #007bff;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+/* Media queries para dispositivos pequeños (ej. teléfonos) */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 14px; /* Tamaño de fuente más pequeño para dispositivos pequeños */
+    }
+
+    h1 {
+        font-size: 30px; /* Reducir el tamaño de los encabezados */
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
